@@ -1,0 +1,257 @@
+
+body{
+    background-color: #FFE7C1;
+}
+
+
+form{
+    padding: 10% !important;
+    gap:4%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+@media(max-width:1200px) {
+    nav{
+        font-size: 100% !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+
+    }
+
+}
+@media(max-width:840px) {
+    #logo{
+        width: 7% !important;
+    }
+    #buy{
+        width: 20% !important;
+
+    }
+    
+    #sticcard{
+        width: 40% !important;
+        height: 60% !important;}
+    #imgstic{
+        width: 100% !important;
+        height: 200px !important;
+        
+    }
+    form{
+        padding:0!important;}
+    #stic{
+        font-size: 7px !important;
+        
+
+        
+
+    }
+    #tstic{
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        align-content: center !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        gap: 30% !important;
+
+    }
+    button{
+        width: 20px !important;
+        height: 2px !important;
+        font-size: 7px !important;
+        margin-left: 0 !important;
+        text-align: center;
+
+    }
+    input{
+        width: 20px !important;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+
+    }
+
+    
+}
+#divn{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    color: #747474;
+    }
+
+nav{
+    justify-content: center;
+    align-items: center;
+    display: flex !important;
+    text-decoration: underline;
+    outline: none;
+    top: 0;
+    width: 100%;
+    font-size: 20px;
+    gap:2%;
+    position: sticky;
+    height:10%;
+    background: linear-gradient(to right ,#F3CCF3,#E9A8F2 , #DC84F3);
+    border-radius: 40px  ;
+
+}
+
+
+
+
+#logo{
+    width: 50px;
+    border-radius: 50%;
+}
+#logo2{
+    border-radius: 50%;
+    margin-top:-9%;
+}
+#dic1{
+    text-align: center;
+    h3{
+        font-family: cursive;
+    }
+}
+
+
+.sec1{
+    background-color: #F3CCF3;
+    gap:4%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 5%;
+}
+#sticcard{
+    background-color: #E9A8F2;
+    width: 300px;
+    height: 445px;
+    background-color: white;
+    margin-bottom: 5%;
+    border-radius: 4px;
+
+}
+input{
+    border: none;
+    background-color:#747474 ;
+    border-radius: 10px;
+    text-align: center;
+    color: black ;
+}
+#stic{
+    
+    background-color: #DC84F3;
+    padding: 10%;
+    display: flex;
+    align-items: center !important;
+    flex-wrap: nowrap;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+    font-size: 15px;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: center;
+    align-items: stretch;
+
+}
+#tstic{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: center;
+
+}
+#nb{
+    width: 30%;
+    
+}
+
+#sticcard:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+button{
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    display: flex;
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 15px;
+    background: #3d83df;
+    font-family: Roboto, Arial, sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight:700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+    margin-left:70px;
+    
+}
+#imgstic{
+    width: 240px;
+    height: 290px;
+}
+footer{
+
+    position: relative;
+    background-color:grey;
+    justify-content: center;
+    gap: 10%;
+    width: 100%;
+    height: 150%;
+    flex-direction:row;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+#div2{
+    height:60px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    justify-content:space-evenly;
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+#div1_1{height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    justify-content:space-evenly;
+    display: flex;
+    flex-wrap: nowrap;}
+
+
+svg{
+width:25px;
+
+}
+#fac{
+fill: #3700ff;
+}
+#inst{
+fill: rgb(153, 5, 153);
+}
+#watsapp{
+fill: darkgreen;
+}
+
+
